@@ -41,7 +41,7 @@ class SimPotentiometer:
     @property
     def value(self):
         return self._value
-    
+
     def set_value(self, v):
         self._value = max(0.0, min(1.0, float(v)))
 
