@@ -1,5 +1,6 @@
 # IoT Lab — Chapter 4: Raspberry Pi with Python
-
+![GitHub Actions](https://github.com/huynguyen020705/IoT-Lab-Chapter4-N23DCCI032/actions/workflows/ci.yml/badge.svg)
+![GitLab CI](https://gitlab.com/huynguyen020705/IoT-Lab-Chapter4-N23DCCI032/badges/main/pipeline.svg)
 **Họ tên:** [Nguyễn Cao Quốc Huy]  
 **MSSV:** [N23DCCI032]  
 **Lớp:** [D23CQCI01-N]
