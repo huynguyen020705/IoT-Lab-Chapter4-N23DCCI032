@@ -1,12 +1,13 @@
-import matplotlib
-matplotlib.use('Agg')  # Bắt buộc cho QEMU headless
 import matplotlib.pyplot as plt
 from sensor_sim import SimUltrasonic, SimPotentiometer
 from time import sleep
+import matplotlib
+matplotlib.use('Agg')  # Bắt buộc cho QEMU headless
+
 
 # --- BƯỚC 5: KHỞI TẠO VÀ THU THẬP DỮ LIỆU ---
 us = SimUltrasonic(echo=24, trigger=23, base_distance=50.0)
-pot = SimPotentiometer(initial_value=0.4) 
+pot = SimPotentiometer(initial_value=0.4)
 span = pot.value * 100  # Chuyển sang cm (0.4 * 100 = 40cm)
 
 distances = []
